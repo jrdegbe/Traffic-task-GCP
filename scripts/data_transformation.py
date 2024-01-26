@@ -32,8 +32,8 @@ def convert_and_reformat_xls_to_csv(file_path, output_path):
         logging.error(f"Error occurred: {e}")
 
 # File paths
-input_file = '/Users/jrdegbe/Desktop/Traffic-task-GCP/data/traffic_spreadsheet.xls'
-output_file = '/Users/jrdegbe/Desktop/Traffic-task-GCP/data/traffic_data.csv'
+input_file = '/Users/jrdegbe/Desktop/DataMasters/Repos/Traffic-task-GCP/data/traffic_spreadsheet.xls'
+output_file = '/Users/jrdegbe/Desktop/DataMasters/Repos/Traffic-task-GCP/data/traffic_data.csv'
 
 # Convert and reformat the XLS file
 convert_and_reformat_xls_to_csv(input_file, output_file)
